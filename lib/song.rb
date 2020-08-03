@@ -14,7 +14,8 @@ class Song
     song.artist_name = artist  
     song 
   end
-  def artist_name=(string)
+  def artist_name=(name)
+    
     
      
     
