@@ -17,7 +17,7 @@ class Artist
     end 
   end
   def self.find_or_create_by_name(name_given)
-    if self.all.include? {|element| element.name ==   
+      
   end
   def print_songs
     Song.all.each do |element|
