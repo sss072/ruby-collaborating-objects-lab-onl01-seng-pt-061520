@@ -16,8 +16,8 @@ class Artist
       element.artist == self 
     end 
   end
-  def self.find_or_create_by_name(name_given)
-    self.find(name_given)   
+  def self.find_or_create_by_name(name)
+    self.find(name) ? self.find(name) : self.new(name)  
   end
   def print_songs
     Song.all.each do |element|
