@@ -24,6 +24,7 @@ class Artist
       puts element.name if element.artist == self 
     end
   end
+end
   
     
       
